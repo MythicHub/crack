@@ -1,0 +1,114 @@
+-- Ex Hub
+--- [AutoFarm]
+_G.AutoFarm = {
+    AutoFarmLevel = false, -- true/false
+    AutoQuest = true, -- true/false
+    AutoNewWorld = false, -- true/false
+    AutoSaber = false, -- true/false
+    AutoPole = false, -- true/false
+    AutoFarmMasteryDevilFruit = false, -- true/false
+    AutoFarmMasteryGun = false, -- true/false
+    AutoFarmMasteryWeapon = false, -- true/false
+    AutoFarmObservationHaki = false, -- true/false
+    AutoSuperhumanFarm = false, -- true/false
+    AutoDeathStep = false, -- true/false
+    AutoSwanGlasses = false, -- true/flase
+    AutoDragonTrident = false, -- true/false
+    AutoFactory = false, -- true/false
+    AutoBartilo = false, -- true/false
+    AutoRengoku = false, -- true/false
+    AutoSharkmanKarate = false, -- true/false
+    AutoFarmEctoPlasm = false, -- true/false
+    AutoThreeWorld = false, -- true/false
+    AutoTrainerDummy = false, -- true/false
+    AutoObservationHakiV2 = false, -- true/false
+    AutoPlayerHunter = false, -- true/false
+    AutoEliteHunter = false, -- true/false
+    AutoTushitaSword = false, -- true/false
+    AutoYamaSword = false, --true/false
+    AutoRainbowHaki = false, -- true/false
+    AutoCanvander = false, -- true/false
+    AutoSerpentBow = false, -- true/false
+    AutoElectricClawV2 = false, -- true/false
+    -----------------------------------------
+    HopFunction = false,
+}
+--- [Settings]
+_G.Settings = {
+    FastAttack = false, -- true/false
+    SelectWeapon = "", -- Select Weapon
+    SelectWeaponMastery = "", -- Select Weapon Mastery
+    HealthFarm = 20, -- Select Health Mastery Farm
+    ShowHitbox = false, -- true/false
+    AutoHaki = true, -- true/false
+    AutoObservationHaki = true, -- true/false
+    BringMob = true, -- true/false
+    AntiAFK = true, -- true/false
+    DistanceAutoFarm = 25, -- Select Distance
+    AutoActivateRace = false, -- true/false
+    --- Auto Skill (Mastery Farm Only)
+    AutoSkillZ = false, -- true/false
+    AutoSkillX = false, -- true/false
+    AutoSkillC = false, -- true/false
+    AutoSkillV = false, -- true/false
+    --- Auto Stats
+    AutoStatMelee = false, -- true/false
+    AutoStatDefense = false, -- true/false
+    AutoStatSword = false, -- true/false
+    AutoStatGun = false, -- true/false
+    AutoStatDevilFruit = false, -- true/false
+    SelectPointStats = 1, -- Select Point
+    --- Redeem Code
+    AutoRedeemCodex2 = false, -- true/false
+    --- Select Team
+    Pirate = false, -- true/false
+    Marine = false, -- true/false
+    --- Hide UI
+    HideUI = false, -- true/false
+    FPSBoost = false, -- true/false
+    --- Lock
+    SelectLockLevel = 2000, -- Select Level
+    SelectLockBeli = 100000000, -- Select Beli
+    SelectLockFragment = 100000, -- Select Fragment
+    SelectLockEctoPlasm = 300, -- Select EctoPlasm
+    SelectLockBounty = 25000000, -- Select Bounty
+    --- On Lock Funtion
+    LockLevel = false, -- true/false
+    LockBeli = false, -- true/false
+    LockFragment = false, -- true/false
+    LockEctoPlasm = false, -- true/false
+    LockBounty = false, -- true/false
+}
+--- Raid
+_G.AutoRaids = {
+    SelectMicroShip = "", --Select Ship
+    AutoRaid = false, -- true/false
+    KillAura = false, -- true/false
+    AutoNextIsland = false, -- true/false
+}
+--- Kill + Hop
+_G.KillHop = {
+    Xray = false, -- true/false
+    HideCrew = false, -- true/false
+    KillPlayer = false, -- true/false
+}
+--- Boss
+_G.Boss = {
+    SelectBoss = "", -- Select Boss
+    SelectWeaponKillBoss = "", -- Select Weapon Kill Boss
+    KillBossSelect = false, -- Kill Boss
+    KillBossAll = false,
+}
+--- Fruit
+_G.Fruit = {
+    SelectDevilFruit = "", -- Select Devil Fruit
+    DevilFruitSniper = false, -- true/false
+}
+--- Buy
+_G.Buy = {
+    AutoBuyHakiColor = false, -- true/false
+    AutoBuyLegendarySword = false, -- true/false
+    AutoBuyBusoHaki = false, -- true/false
+    AutoBuyGeppo = false, -- true/false
+    AutoBuySoru = false, -- true/false
+}
